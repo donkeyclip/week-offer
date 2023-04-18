@@ -3,11 +3,21 @@ export default [
     name: "Blue medium",
     value: {
       colors: ["#fff", "#161616"],
-      Offer: "30,00$",
+      offer: "39.90€",
       images: [
-        "https://www.e-tennis.gr/pub/media/catalog/product/cache/f5f3da80ad7b670245aea7e970662954/d/h/dh0626-010-phsrh000-1500.webp",
-        "https://www.e-tennis.gr/pub/media/catalog/product/cache/f5f3da80ad7b670245aea7e970662954/d/h/dh0626-100-phsrh000-1500.webp",
+        "https://donkeyclip.github.io/week-offer/server/white.png",
+        "https://donkeyclip.github.io/week-offer/server/black.png",
       ],
+      firstImagePosition: {
+        top: -19,
+        left: 53,
+      },
+      secondImagePosition: {
+        top: 28,
+        left: 0,
+      },
+      firstRow: "Προσφορά",
+      secondRow: "εβδομάδας",
     },
   },
 ];

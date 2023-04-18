@@ -5,6 +5,14 @@ export default {
     items: {
       type: "color",
     },
+    firstRow: {
+      label: "First Row",
+      type: "string",
+    },
+    secondRow: {
+      label: "Second Row",
+      type: "string",
+    },
     offer: {
       label: "Offer",
       type: "string",
@@ -13,6 +21,22 @@ export default {
       label: "Images",
       type: "array",
       items: { type: "string" },
+    },
+    firstImagePosition: {
+      type: "object",
+      label: "First Image Position",
+      props: {
+        top: { type: "number" },
+        left: { type: "number" },
+      },
+    },
+    secondImagePosition: {
+      type: "object",
+      label: "Second Image Position",
+      props: {
+        top: { type: "number" },
+        left: { type: "number" },
+      },
     },
   },
 };

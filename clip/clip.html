@@ -1,4 +1,23 @@
-<div class="container">
-  <div class="product-image" mc-for="key,item" mc-of="initParams.images" style="background-image: url({{item}});">
+<a class="container"
+  href="https://www.e-tennis.gr/tennis-shoes/tennis-shoe/nike/shopby/show_onsales_products-sales_products-model-zoom_lite.html">
+  <div class="title-wrapper">
+    <div class="row-wrapper first-row">
+      <div class="row" mc-for="key,item" mc-of="initParams.firstRow">{{item}} </div>
+    </div>
+    <div class="row-wrapper second-row">
+      <div class="row" mc-for="key,item" mc-of="initParams.secondRow">{{item}}</div>
+    </div>
+
+
   </div>
-</div>
+  <div class="offer-wrapper">
+    <div class="subtitle">'Εως</div>
+    <div class="offer">{{initParams.offer}}</div>
+  </div>
+
+  <div class="image-wrapper">
+    <div class="product-image image-1" style="background-image: url({{initParams.images[0]}});"></div>
+    <div class="product-image image-2" style="background-image: url({{initParams.images[1]}});"></div>
+  </div>
+
+</a>
