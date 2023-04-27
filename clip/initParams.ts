@@ -18,6 +18,7 @@ export default [
       },
       firstRow: "Προσφορά",
       secondRow: "εβδομάδας",
+      thirdRow: "Nike Zoom Lite 3",
     },
   },
 ];

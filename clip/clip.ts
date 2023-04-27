@@ -2,7 +2,7 @@ import { HTMLClip, setCSSCore } from "@donkeyclip/motorcortex";
 import css from "./clip.css";
 import html from "./clip.html";
 import AnimePluginDefinition from "@donkeyclip/motorcortex-anime";
-setCSSCore(AnimePluginDefinition.CSSEffect);
+// setCSSCore(AnimePluginDefinition.CSSEffect);
 
 import initParams from "./initParams";
 import initParamsValidationRules from "./initParamsValidationRules";
