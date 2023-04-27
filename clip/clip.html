@@ -7,7 +7,13 @@
     <div class="row-wrapper second-row">
       <div class="row" mc-for="key,item" mc-of="initParams.secondRow">{{item}}</div>
     </div>
+    <div class="subtitle-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="60">
+        <image data-name="Vector Smart Object" width="81" height="60"
+          xlink:href="data:img/png;base64,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" />
+      </svg>
 
+    </div>
 
   </div>
   <div class="offer-wrapper">
@@ -19,5 +25,5 @@
     <div class="product-image image-1" style="background-image: url({{initParams.images[0]}});"></div>
     <div class="product-image image-2" style="background-image: url({{initParams.images[1]}});"></div>
   </div>
-
+  <div class="smoke"></div>
 </a>

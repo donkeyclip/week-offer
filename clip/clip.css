@@ -19,7 +19,7 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 height: 100%;
-background: linear-gradient(121deg, var(--first-color), var(--second-color) );
+background: black;
 font-family: 'Open Sans', sans-serif;
 color: white;
 }
@@ -76,4 +76,13 @@ color: white;
 
   top: var(--second-top);
   left: var(--second-left);
+}
+
+.smoke{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://donkeyclip.github.io/week-offer/server/smoke.png");
 }
