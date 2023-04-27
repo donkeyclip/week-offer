@@ -36,7 +36,7 @@ color: white;
   gap: 8px;
   position: absolute;
   right: 13px;
-  top: 109px;
+  top: 126px;
 }
 .row-wrapper{
   display: flex;
@@ -52,11 +52,11 @@ color: white;
 }
 
 .title-wrapper{
-  font-size: 27px;
+  font-size: 24px;
   position: absolute;
   right: 13px;
-  top: 33px;
   width: 138px;
+  top: 22px;
 }
 
 .product-image{  
@@ -78,11 +78,27 @@ color: white;
   left: var(--second-left);
 }
 
-.smoke{
+.subtitle-wrapper{
+  font-size: 16px;
   position: absolute;
+  right: 13px;
   width: 100%;
-  height: 100%;
-  background-size: cover;
+  top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.subtitle-text{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.smoke{
+  background-image: url(https://donkeyclip.github.io/week-offer/server/smoke.png);
   background-repeat: no-repeat;
-  background-image: url("https://donkeyclip.github.io/week-offer/server/smoke.png");
+  background-size: contain;
+  height: 170px;
+  position: absolute;
+  width: 355px;
 }

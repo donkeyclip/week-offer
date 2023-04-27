@@ -30,7 +30,7 @@ clip.addIncident(Wave(".first-row .row"), 0);
 clip.addIncident(Wave(".second-row .row"), 0);
 clip.addIncident(Floating(".image-1", "5px"), 0);
 clip.addIncident(Floating(".image-2", "-5px"), 0);
-clip.addIncident(FontSize("45px", "40px", ".offer", 300, "linear"), 300);
-clip.addIncident(FontSize("40px", "45px", ".offer", 300, "linear"), 600);
+clip.addIncident(FontSize("35px", "30px", ".offer", 300, "linear"), 300);
+clip.addIncident(FontSize("30px", "35px", ".offer", 300, "linear"), 600);
 
 export { clip };
