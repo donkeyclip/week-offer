@@ -53,10 +53,15 @@ color: white;
 
 .title-wrapper{
   font-size: 24px;
+  font-weight: 900;
   position: absolute;
   right: 13px;
-  width: 138px;
   top: 22px;
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .product-image{  
