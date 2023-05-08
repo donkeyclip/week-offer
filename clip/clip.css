@@ -1,7 +1,7 @@
 * {
   
-  --first-color: {{ initParams.colors[0] }};
-  --second-color: {{ initParams.colors[1] }};
+  --first-color: {{ initParams.backgroundColor }};
+  --second-color: {{ initParams.fontColor }};
   --first-top: {{ initParams.firstImagePosition.top }}px;
   --first-left: {{ initParams.firstImagePosition.left }}px;
   --second-top: {{ initParams.secondImagePosition.top }}px;
@@ -19,9 +19,9 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 height: 100%;
-background: black;
+background: var(--first-color);
 font-family: 'Open Sans', sans-serif;
-color: white;
+color: var(--second-color);
 }
 
 .image-wrapper{
